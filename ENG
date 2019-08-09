@@ -12,21 +12,21 @@ This Ontology of companies & entrepreneurs accounting statement was designed to 
 
 ## Contents
 
-1. Введение
-1.1. Определения пространства имен
-1.1.1. Используемые пространства имен
-1.2. Обзор классов и свойств
-1.2.1. Класс
-1.2.2. Свойства объекта
-1.2.3. Свойства данных
-1.3. Описание Data cube
-1.3.1. Оси куба
-1.3.2. Меры куба
-2. Перекрестные ссылки: классы, свойства и свойства данных
+1. Introduction
+1.1. Namespaces
+1.1.1. Namespaces used in the document
+2. Overview
 2.1. Object Properties
 2.2. Data Properties
 2.3. Named Individuals
-2.4. Легенда
+3.  Description of Data cube
+3.1. Dimensions
+3.2. Measures
+4. Cross references: classes, properties and dataproperties
+4.1. Object Properties
+4.2. Data Properties
+4.3. Named Individuals
+4.4. Convention
 
 
 ## Introduction
@@ -314,7 +314,7 @@ This ontology has the following classes and properties.
 
 ----
 ### Convention
-|Mark|Description|
+|Abbreviation|Description|
 |:---|:---|
 |c | Classes |
 |op| Object Properties |

@@ -1,7 +1,7 @@
 # Онтология Бухгалтерской отчетности организаций и ИП (Росстат)
 
-|Описание| Ссылка|
-|:------------ | -----:|
+|Описание| Свойства|
+|:------------ |:-----|
 |Текущая версия: | https://w3id.org/datafabric.cc/ontologies/rosstat# |
 |Download serialization: | RDF/XML N-Triples TTL|
 |Лицензия:|http://insertlicenseURIhere.org|
@@ -12,13 +12,11 @@
 
 ## Содержание
 
-[TOC]
-
 1. Введение
 1.1. Определения пространства имен
-2. Онтология Бухгалтерской отчетности организаций и ИП (Росстат): Обзор классов и свойств
-3. Онтология Бухгалтерской отчетности организаций и ИП (Росстат): Описание
-4. Перекрестные ссылки на Онтология Бухгалтерской отчетности организаций и ИП (Росстат) classes, properties and dataproperties
+2. Обзор классов и свойств
+3. Описание
+4. Перекрестные ссылки: классы, свойства и свойства данных
 4.1. Object Properties
 4.2. Data Properties
 4.3. Named Individuals
@@ -40,6 +38,8 @@
 
 ### Используемые пространства имен
 
+|Описание| Ссылка|
+|:------------ |:-----|
 |formalorganizations	|<https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/> |
 |owl|	<http://www.w3.org/2002/07/owl#>|
 |concept|	<http://purl.org/linked-data/sdmx/2009/concept#>|
@@ -58,20 +58,21 @@
 
 Представленная онтология состоит из следующих классов и свойств.
 
-- Класс
-- Организация
+Класс:
+
+1. Организация.
 
 Свойства объекта:
 
-1. Выручка   
-2. Дебиторская задолженность   
-3. Денежные средства   
-4. Запасы   
-5. Кредиторская задолжность   
-6. Налог на прибыль 
-7. Нераспределенная прибыль (непокрытый убыток)   
-8. Период   
-9. Чистая прибыль (убыток)
+1. Выручка,
+2. Дебиторская задолженность,
+3. Денежные средства,
+4. Запасы,
+5. Кредиторская задолжность,
+6. Налог на прибыль,
+7. Нераспределенная прибыль (непокрытый убыток,
+8. Период,
+9. Чистая прибыль (убыток).
 
 Свойства данных:
 
@@ -109,183 +110,201 @@ Data cube схемы данных бухгалтерской отчетност�
 
 ## Перекрестные ссылки: классы, свойства и свойства данных
 
-Object Properties
-Организация
-Организация
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refOrganization
+### Object Properties
+#### Организация
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refOrganization`
 
-has range
-formal organization c
-is also defined as
-named individual
+`has range`
+`formal organization c`
+`is also defined as`
+`named individual`
 
-Data Properties
-Выручка   Дебиторская задолженность   Денежные средства   Запасы   Кредиторская задолжность   Налог на прибыль Нераспределенная прибыль (непокрытый убыток)   Период   Чистая прибыль (убыток)
-Выручкаdp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2110
+### Data Properties
+#### Выручка
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2110`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Дебиторская задолженностьdp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1230
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Денежные средстваdp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1250
+#### Дебиторская задолженность
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1230`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Запасыdp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1210
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Кредиторская задолжностьdp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1520
+#### Денежные средства
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1250`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Налог на прибыльdp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2410
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Нераспределенная прибыль (непокрытый убыток)dp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1370
+#### Запасы
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1210`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Периодdp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refPeriod
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-has super-properties
-ref period dp
-has range
-g year
-is also defined as
-named individual
-Чистая прибыль (убыток)dp back to ToC or Data Property ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2400
+#### Кредиторская задолжность
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1520`
 
-has super-properties
-obs value dp
-has range
-decimal
-is also defined as
-named individual
-Named Individuals
-RDF Data Cube схема данных бухгалтерской отчетности организаций и ИП  Бухгалтерская отчетность организации или ИП за отчетный период  Выручка Дебиторская задолженность   Денежные средства   Запасы   Кредиторская задолжность   Налог на прибыль Нераспределенная прибыль (непокрытый убыток)   Организация   Период   Чистая прибыль (убыток)
-RDF Data Cube схема данных бухгалтерской отчетности организаций и ИПni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#RosstatAccountingReportDSD
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-belongs to
-data structure definition c
-Бухгалтерская отчетность организации или ИП за отчетный периодni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#SliceByYearAndOrg
+#### Налог на прибыль
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2410`
 
-belongs to
-slice key c
-Выручкаni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2110
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-belongs to
-measure property c
-is also defined as
-data property
-Дебиторская задолженностьni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1230
+#### Нераспределенная прибыль (непокрытый убыток)
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1370`
 
-belongs to
-measure property c
-is also defined as
-data property
-Денежные средстваni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1250
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-belongs to
-measure property c
-is also defined as
-data property
-Запасыni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1210
+#### Период
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refPeriod`
 
-belongs to
-measure property c
-is also defined as
-data property
-Кредиторская задолжностьni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1520
+`has super-properties`
+`ref period dp`
+`has range`
+`g year`
+`is also defined as`
+`named individual`
 
-belongs to
-measure property c
-is also defined as
-data property
-Налог на прибыльni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2410
+#### Чистая прибыль (убыток)
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2400`
 
-belongs to
-measure property c
-is also defined as
-data property
-Нераспределенная прибыль (непокрытый убыток)ni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1370
+`has super-properties`
+`obs value dp`
+`has range`
+`decimal`
+`is also defined as`
+`named individual`
 
-belongs to
-measure property c
-is also defined as
-data property
-Организацияni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refOrganization
+### Named Individuals
+#### RDF Data Cube схема данных бухгалтерской отчетности организаций и ИП
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#RosstatAccountingReportDSD`
 
-belongs to
-dimension property c
-is also defined as
-object property
-Периодni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refPeriod
+`belongs to`
+`data structure definition c`
 
-belongs to
-dimension property c
-is also defined as
-data property
-Чистая прибыль (убыток)ni back to ToC or Named Individual ToC
-IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2400
+#### Бухгалтерская отчетность организации или ИП за отчетный период
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#SliceByYearAndOrg`
 
-belongs to
-measure property c
-is also defined as
-data property
+`belongs to`
+`slice key c`
 
-## Легенда
+#### Выручка
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2110`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Дебиторская задолженность
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1230`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Денежные средства
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1250`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Запасы
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1210`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Кредиторская задолжность
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1520`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Налог на прибыль
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2410`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Нераспределенная прибыль (непокрытый убыток)
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-1370`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Организация
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refOrganization`
+
+`belongs to`
+`dimension property c`
+`is also defined as`
+`object property`
+
+#### Период
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#refPeriod`
+
+`belongs to`
+`dimension property c`
+`is also defined as`
+`data property`
+
+
+#### Чистая прибыль (убыток)
+`IRI: https://w3id.org/datafabric.cc/ontologies/rosstat#measure-2400`
+
+`belongs to`
+`measure property c`
+`is also defined as`
+`data property`
+
+#### Легенда
 c: Классы 
 op: Object Properties 
 dp: Data Properties 
